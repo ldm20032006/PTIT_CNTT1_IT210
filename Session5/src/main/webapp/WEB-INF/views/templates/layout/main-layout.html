@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title layout:title-pattern="$CONTENT_TITLE - Nha Hang Xanh">Nha Hang Xanh</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<header class="bg-dark text-white py-3">
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="h4 mb-0">Logo Nha Hang Xanh</div>
+        <nav>
+            <a class="text-white mr-3" th:href="@{/bai4}">Danh sach mon</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container py-4" layout:fragment="content">
+    <p>No content</p>
+</main>
+
+<footer class="bg-light border-top py-3">
+    <div class="container">
+        <small>Hotline: 0909 000 111 | Email: contact@nhahangxanh.vn</small>
+    </div>
+</footer>
+</body>
+</html>
